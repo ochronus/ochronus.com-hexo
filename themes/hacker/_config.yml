@@ -1,0 +1,14 @@
+menu:
+  Home: /
+  Archives: /archives
+
+# duoshuo comment
+duoshuo: false
+duoshuo_name:
+
+# disqus comment
+disqus: true
+disqus_shortname: ochronuscom
+
+# google analytics
+googleTrackId: UA-69017316-1

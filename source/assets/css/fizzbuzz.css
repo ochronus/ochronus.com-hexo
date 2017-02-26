@@ -1,0 +1,30 @@
+.box {
+    width: 80px;
+    height: 80px;
+    background: #D3D3D3;
+    margin: 20px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.box:nth-of-type(3n) {
+    background: #F2AE72;
+}
+.box:nth-of-type(3n)::after {
+    content: " Fizz";
+}
+.box:nth-of-type(5n) {
+    background: #588C7E;
+}
+.box:nth-of-type(5n)::after {
+    content: " Buzz";
+}
+.box:nth-of-type(3n).box:nth-of-type(5n) {
+    background: #D96459 !important;
+}
+.box:nth-of-type(3n).box:nth-of-type(5n)::after {
+    content: " FizzBuzz"
+}
