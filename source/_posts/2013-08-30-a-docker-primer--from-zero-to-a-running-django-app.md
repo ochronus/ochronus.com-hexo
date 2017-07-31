@@ -20,7 +20,8 @@ keywords:
 share: true
 title: A Docker primer – from zero to a running Django app
 url: docker-primer-django
-cover: /images/docker.jpg
+photos:
+    - /images/docker.jpg
 ---
 
 Let's create a docker container and run a basic Django app - step by step.  

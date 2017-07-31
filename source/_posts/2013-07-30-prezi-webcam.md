@@ -11,7 +11,8 @@ image:
 share: true
 title: Prezi webcam controller test
 url: prezi-webcam
-cover: /images/prezi-webcam.jpg
+photos:
+    - /images/prezi-webcam.jpg
 ---
 {% raw %}
 <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>

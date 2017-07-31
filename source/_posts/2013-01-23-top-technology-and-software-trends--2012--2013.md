@@ -15,7 +15,8 @@ keywords:
 share: true
 title: Top Technology and Software Trends – 2012 – 2013
 url: top-technology-software-trends-2012-2013
-cover: /images/trend1.jpg
+photos:
+    - /images/trend1.jpg
 ---
 
 Here’s the list of new technology trends to follow based on my experience and prediction:

@@ -18,10 +18,9 @@ tags:
 - algorithm
 title: FizzBuzz in CSS
 url: fizzbuzz-in-css
-cover: /images/fizzbuzz.png
+photos:
+    - /images/fizzbuzz.png
 ---
-
-{% img  /images/fizzbuzz.png The proverbial comfort zone %}
 
 ## Lo and behold, a pure CSS FizzBuzz implementation!
 

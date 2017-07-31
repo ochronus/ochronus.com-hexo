@@ -66,6 +66,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hacker
+#theme: Daily
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

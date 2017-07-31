@@ -23,7 +23,8 @@ keywords:
 share: true
 title: DigitalOcean - a review and comparison
 url: digitalocean-review-comparison
-cover: /images/digital-ocean.jpg
+photos:
+    - /images/digital-ocean.jpg
 ---
 
 ## The setting

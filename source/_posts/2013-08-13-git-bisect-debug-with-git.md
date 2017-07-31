@@ -14,7 +14,8 @@ keywords:
 share: true
 title: Git bisect - debug with git
 url: git-bisect-debug-with-git
-cover: /images/git-bisect.jpg
+photos:
+    - /images/git-bisect.jpg
 ---
 
 # The setting

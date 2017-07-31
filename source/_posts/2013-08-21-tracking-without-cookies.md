@@ -17,7 +17,8 @@ keywords:
 share: true
 title: Tracking without cookies
 url: tracking-without-cookies
-cover: /images/cookies.jpg
+photos:
+    - /images/cookies.jpg
 ---
 
 # Demo

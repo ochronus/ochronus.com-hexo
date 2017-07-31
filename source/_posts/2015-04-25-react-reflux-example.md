@@ -19,7 +19,8 @@ tags:
 - reactive
 title: React.js + Reflux example
 url: react-reflux-example
-cover: /images/react-reflux.jpg
+photos:
+    - /images/react-reflux.jpg
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react-with-addons.min.js"></script>

@@ -20,7 +20,8 @@ keywords:
 share: true
 title: Git tips from the trenches
 url: git-tips-from-the-trenches
-cover: /images/git-tips.jpg
+photos:
+    - /images/git-tips.jpg
 ---
 
 ##After a few years with git everyone has their own bag o' tricks - a collection of bash aliases, one liners and habits that make his daily work easier. 

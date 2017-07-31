@@ -17,7 +17,8 @@ keywords:
 share: true
 title: Brainfuck in Clojure in 40 lines
 url: brainfuck-in-clojure-in-40-lines
-cover: /images/brainfuck-clojure.jpg
+photos:
+    - /images/brainfuck-clojure.jpg
 ---
 
 [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck) is a cool crazy little language, perfect to write interpreters for. It's rules and syntax are very simple and straightforward, there are only 8 instructions plus an instruction pointer. Several brainfuck compilers have been made smaller than 200 bytes. One compiler of 100 bytes is known to exist. Clojure and Brainfuck have their simplicity in common, so let's implement a BF interpreter in Clojure for fun - for that, we need to look at the syntax and instructions of Brainfuck first.

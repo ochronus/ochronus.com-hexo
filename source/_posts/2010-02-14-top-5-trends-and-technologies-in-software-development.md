@@ -15,7 +15,8 @@ keywords:
 share: true
 title: Top 5 Trends and Technologies in Software Development
 url: top-5-trends-in-software-development
-cover: /images/trend2.jpg
+photos:
+    - /images/trend2.jpg
 ---
 
 In this ever-changing world of software development it’s extremely important to keep up with current technologies, methodologies and trends. 

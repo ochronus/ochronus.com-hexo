@@ -11,7 +11,8 @@ image:
 share: true
 title: What Is a HTTP HEAD Request Good for? Some Uses
 url: http-head-request-good-uses
-cover: /images/http-head.jpg
+photos:
+    - /images/http-head.jpg
 ---
 
 ## Let’s meet HTTP GET ‘s little brother  

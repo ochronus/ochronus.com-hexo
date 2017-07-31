@@ -2,11 +2,10 @@
 date: "2017-02-24T09:39:54+01:00"
 title: "Engineering managers, stop coding!"
 url: engineering-managers-stop-coding
-cover: /images/comfort-zone.jpeg
+photos:
+    - /images/comfort-zone.jpeg
 ---
 
-
-{% img  /images/comfort-zone.jpeg The proverbial comfort zone %}
 
 So you became an engineering manager from a senior engineer. Congratulations and welcome to possibly the hardest change in your career. Everything is going to change — the way you defined yourself so far, your evaluation, your goals, the length of your work’s feedback loop. Now you start learning again, this time not the next tech stack or framework but something completely different. You’ll learn about people, their motivations, their pains, their unique perception of the world. You’ll learn some politics for sure, whether you like it or not. You’ll learn how to be there for others, how to be a [servant leader](https://en.wikipedia.org/wiki/Servant_leadership). From time to time, you will fail. You’ll get tired in ways you never imagined before. You’ll get frustrated about the long feedback loops your work has. There will be days when you’ll want to get back to coding, you’ll want it bad.
 

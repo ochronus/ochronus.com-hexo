@@ -16,7 +16,8 @@ keywords:
 share: true
 title: Generative testing in Clojure
 url: generative-testing-in-clojure
-cover: /images/generative-testing.jpg
+photos:
+    - /images/generative-testing.jpg
 ---
 
 Why not automate the manual work involved in writing individual test cases? Why not make them more robust by applying a much wider coverage of the input domain compared to picking edge cases by hand? Why not separate input domain definition from validation? Generative testing addresses these problems by testing random_(ish)_ly generated inputs against the expected _properties_ of output instead of expected _values_. Traditional unit tests are usually written by hand-picking cleverly chosen edge cases and testing them, encapsulating input and validation in (typically) single functions/methods.  

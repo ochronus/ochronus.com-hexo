@@ -19,7 +19,8 @@ share: true
 source_url: http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa_
 title: A Rubyist's confessions on Python
 url: a-rubyists-confessions-on-python
-cover: /images/python-ruby.jpg
+photos:
+    - /images/python-ruby.jpg
 ---
 
 I'm quite a long-term Ruby developer, I've been actively using the lanuage for 6 years now. I love its style, elegance and metaprogramming abilities... to me it just feels warm and fuzzy to be coding in Ruby. 

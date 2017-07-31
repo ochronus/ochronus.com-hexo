@@ -15,7 +15,8 @@ tags:
 - chrome
 title: How to create a Chrome extension
 url: how-to-create-a-chrome-extension
-cover: /images/create-chrome-extension.jpg
+photos:
+    - /images/create-chrome-extension.jpg
 ---
 
 Google Chrome is probably the best browser nowdays and part of its success is due to the excellent extensions available. It's quite easy to get started with creating extensions but the [official guide](https://developer.chrome.com/extensions/overview) can be overwhelming at first, in my experience it's better used as a reference when you already know what you're looking for.

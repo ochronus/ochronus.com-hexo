@@ -17,7 +17,8 @@ tags:
 - reactive
 title: React.js - What the flux
 url: react-what-the-flux
-cover: /images/react-what-the-flux.jpg
+photos:
+    - /images/react-what-the-flux.jpg
 ---
 
 UI on the web has always been a special kind of hell for me. That is the part of the stack where I almost always have the feeling that I'm not doing proper engineering work, it's so fragile, without real/strong architecture. I have used and tried many frameworks to lessen the pain - [Backbone](http://backbonejs.org/), [Marionette+Backbone](http://marionettejs.com/) and lately the 'new' kids on the block - [AngularJS](https://angularjs.org/) & [Ember](http://emberjs.com/). Well, frankly none of them seem to get things right to me. There's still the lingering feeling of building your UI with toothpicks and duct tape. Oh, and sometimes magic (hello, Angular!).

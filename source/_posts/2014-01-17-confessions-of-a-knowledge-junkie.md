@@ -16,7 +16,8 @@ keywords:
 share: true
 title: Confessions of a knowledge junkie
 url: confessions-of-a-knowledge-junkie
-cover: /images/knowledge-junkie.jpg
+photos:
+    - /images/knowledge-junkie.jpg
 ---
 
 #### knowledge junkie 

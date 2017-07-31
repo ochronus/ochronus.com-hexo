@@ -14,7 +14,8 @@ tags:
 - security
 title: The illusion of private browsing
 url: the-illusion-of-private-browsing
-cover: /images/surveillance.jpg
+photos:
+    - /images/surveillance.jpg
 ---
 
 # Have you tried browsing in incognito mode? Did you feel safe?

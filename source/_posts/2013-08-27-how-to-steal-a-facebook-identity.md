@@ -17,7 +17,8 @@ keywords:
 share: true
 title: How to Steal a Facebook Identity
 url: steal-facebook-identity
-cover: /images/steal-facebook-identity.jpg
+photos:
+    - /images/steal-facebook-identity.jpg
 ---
 
 How to hack cookie based authentication - a.k.a why you should use HTTPS for all sites you have an account on.

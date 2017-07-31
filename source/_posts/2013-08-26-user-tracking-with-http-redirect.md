@@ -18,7 +18,8 @@ keywords:
 share: true
 title: User tracking with HTTP Redirect
 url: user-tracking-http-redirect
-cover: /images/user-tracking.jpg
+photos:
+    - /images/user-tracking.jpg
 ---
 
 Ok we're though with [ETag based user tracking](/tracking-without-cookies/), now let's see a slightly less effective but still usable 'invisible' user tracking method, the redirect based one.

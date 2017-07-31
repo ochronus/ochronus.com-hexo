@@ -2,10 +2,10 @@
 date: "2017-02-24T09:52:01+01:00"
 title: "Staying motivated while growing"
 url: staying-motivated-while-growing
-cover: /images/goldilock.jpeg
+photos:
+    - /images/goldilock.jpeg
 ---
 
-{% img /images/goldilock.jpeg The Goldilocks principle %}
 For those unfamiliar with classic fairy tales, in Goldilocks, a little girl visited the home of a family of three bears, and tried each of their meals, chairs and beds. She choose the options most comfortable for her, in terms of taste, size and softness.
 
 In cognitive science and developmental psychology, the Goldilocks effect or principle refers to an infant’s preference to attend to events which are neither too simple nor too complex according to their current representation of the world.
