@@ -1592,7 +1592,7 @@ hexo-util@^0.1.6:
     ent "^2.2.0"
     highlight.js "^8.6.0"
 
-hexo-util@^0.6.0:
+hexo-util@^0.6.0, hexo-util@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-0.6.1.tgz#3d74b11af9ae11f21c7c62fa843546e1582e02d8"
   dependencies:
