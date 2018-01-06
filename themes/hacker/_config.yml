@@ -8,8 +8,12 @@ duoshuo: false
 duoshuo_name:
 
 # disqus comment
-disqus: true
+disqus: false
 disqus_shortname: ochronuscom
+
+# isso comment
+isso: tru
+isso_domain: blog-comments.ochronus.com
 
 # google analytics
 googleTrackId: UA-69017316-1

@@ -97,6 +97,6 @@
     <% } %>
   </div>
 </article>
-<% if (!index && item.comments && (theme.duoshuo || theme.disqus)){ %>
+<% if (!index && item.comments && (theme.duoshuo || theme.disqus || theme.isso)){ %>
   <%- partial('comment') %>
 <% } %>
