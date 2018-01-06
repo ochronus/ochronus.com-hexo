@@ -2,10 +2,10 @@
 categories:
 - it
 comments: true
-cover_image: /images/ambient1.jpg
+cover_image: /images/750px/ambient1.jpg
 date: 2013-07-08T00:00:00Z
 excerpt: How a Rubyist feels about Python after using it for 6+ months
-featured_image: /images/ruby_vs_python.jpg
+featured_image: /images/750px/ruby_vs_python.jpg
 image:
   feature: python-ruby.jpg
   topPosition: -500px;
@@ -20,7 +20,7 @@ source_url: http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-
 title: A Rubyist's confessions on Python
 url: a-rubyists-confessions-on-python
 photos:
-    - /images/python-ruby.jpg
+    - /images/750px/python-ruby.jpg
 ---
 
 I'm quite a long-term Ruby developer, I've been actively using the lanuage for 6 years now. I love its style, elegance and metaprogramming abilities... to me it just feels warm and fuzzy to be coding in Ruby. 

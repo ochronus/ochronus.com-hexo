@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2014-02-03T00:00:00Z
 excerpt: Get your feet wet in Clojure using problems from Project Euler
-featured_image: /images/clojure.png
+featured_image: /images/750px/clojure.png
 image:
   feature: clojure-euler.jpg
   topPosition: -300px;
@@ -18,7 +18,7 @@ share: true
 title: Learn Clojure with Project Euler
 url: learn-clojure-with-project-euler
 photos:
-    - /images/clojure-euler.jpg
+    - /images/750px/clojure-euler.jpg
 ---
 
 Whenever I start learning a new programming language I feel the urge to try someting practical in it - but usually I lack the knowledge in the beginning and get frustrated. Using [Project Euler](http://projecteuler.net/) problems as small projects bridges the gap though, because they are usually can be solved with simple language basics yet you can rewrite them in more and more elegant ways as you advance. Also as literally hundreds of solutions are available on the net in various languages you can compare your new language-to-learn's capabilities and style with other languages you already know. I won't get into the description of Clojure as this post is focused on solving Project Euler problems but from time to time I will pause and explain small tidbits about the language I find interesting, exceptional or uncommon.

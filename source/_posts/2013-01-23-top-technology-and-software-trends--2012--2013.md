@@ -5,7 +5,7 @@ comments: true
 date: 2013-01-23T00:00:00Z
 description: Top technology and software trends in 2012 and 2013 - advices for developers
   about technology choices
-featured_image: /images/113a8b9903dacec72cccb6f095b67ee8.jpg
+featured_image: /images/750px/113a8b9903dacec72cccb6f095b67ee8.jpg
 image:
   feature: trend1.jpg
   topPosition: -200px;
@@ -16,7 +16,7 @@ share: true
 title: Top Technology and Software Trends – 2012 – 2013
 url: top-technology-software-trends-2012-2013
 photos:
-    - /images/trend1.jpg
+    - /images/750px/trend1.jpg
 ---
 
 Here’s the list of new technology trends to follow based on my experience and prediction:

@@ -16,7 +16,7 @@ tags:
 title: How to create a Chrome extension
 url: how-to-create-a-chrome-extension
 photos:
-    - /images/create-chrome-extension.jpg
+    - /images/750px/create-chrome-extension.jpg
 ---
 
 Google Chrome is probably the best browser nowdays and part of its success is due to the excellent extensions available. It's quite easy to get started with creating extensions but the [official guide](https://developer.chrome.com/extensions/overview) can be overwhelming at first, in my experience it's better used as a reference when you already know what you're looking for.
@@ -43,20 +43,20 @@ Go ahead, create a folder and put a file _manifest.json_ ([docs](https://develop
 {% endcodeblock %}
 This file describes your extension both to Google and later your potential users. Why the magic *2* for manifest_version? This is something [Google defines](https://developer.chrome.com/extensions/manifestVersion) so they are able to introduce new extension APIs and policies.
 
-*default_icon* is the icon your that gets shown in the chrome extension bar. Go and download some icon and place it in your newly created folder. If you absolutely can't find anything, [here](https://cdn.ochronus.com/images/chrome-logo-transparent.png)'s one for you.
+*default_icon* is the icon your that gets shown in the chrome extension bar. Go and download some icon and place it in your newly created folder. If you absolutely can't find anything, [here](https://cdn.ochronus.com/images/750px/chrome-logo-transparent.png)'s one for you.
 
 ## Loading an in-development extension
 Well our shiny new extension doesn't do much apart from _being_ but still let's see how we can get it into Chrome. 
 
 Navigate to [chrome://extensions/](chrome://extensions/) (or open Settings/Extensions)
 Tick 'developer mode' 
-![](/images/chrome-extension-developer-mode.jpg){: .center-image }
+![](/images/750px/chrome-extension-developer-mode.jpg){: .center-image }
 Then click 'Load unpacked extension' and open your folder.
-![](/images/chrome-extensions-load-unpacked.jpg){: .center-image }
+![](/images/750px/chrome-extensions-load-unpacked.jpg){: .center-image }
 Your icon should appear in chrome in the extension icon bar right next to the url bar.
 
 During development you can simply reload your extension after you've made changes to it:
-![](/images/chrome-reload-extension.jpg){: .center-image }
+![](/images/750px/chrome-reload-extension.jpg){: .center-image }
 
 ## Types of extensions
 There are many ways an extension can interact with Chrome, e.g. it can change the rendered page's content, it can show an action icon on specific pages, it can show an ever-present icon next to the url bar (this is how our code currently behaves), the context menu can be extended or the extension can remain totally 'silent'. For a complete reference see the [official developer guide](https://developer.chrome.com/extensions/devguide).

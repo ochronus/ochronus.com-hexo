@@ -5,7 +5,7 @@ comments: true
 date: 2010-02-14T00:00:00Z
 excerpt: In this ever-changing world of software development it's extremely important
   to keep up with current technologies, methodologies and trends.
-featured_image: /images/The_ninja_by_guruji.jpg
+featured_image: /images/750px/The_ninja_by_guruji.jpg
 image:
   feature: trend2.jpg
   topPosition: -200px;
@@ -16,7 +16,7 @@ share: true
 title: Top 5 Trends and Technologies in Software Development
 url: top-5-trends-in-software-development
 photos:
-    - /images/trend2.jpg
+    - /images/750px/trend2.jpg
 ---
 
 In this ever-changing world of software development it’s extremely important to keep up with current technologies, methodologies and trends. 

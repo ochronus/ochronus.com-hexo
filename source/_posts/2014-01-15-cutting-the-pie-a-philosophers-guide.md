@@ -22,7 +22,7 @@ share: true
 title: Cutting the pie - a philosopher's guide
 url: cutting-the-pie
 photos:
-    - /images/cutting-pie.jpg
+    - /images/750px/cutting-pie.jpg
 ---
 
 Suppose you have a nice pie you want to share with your friend. Is there a method by which you can do the division in a way both of you will be satisfied, meaning neither of you would feel deceived? Sure there is, you cut the pie in half as perfectly as you can and then you let your friend choose.

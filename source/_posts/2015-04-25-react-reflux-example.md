@@ -20,7 +20,7 @@ tags:
 title: React.js + Reflux example
 url: react-reflux-example
 photos:
-    - /images/react-reflux.jpg
+    - /images/750px/react-reflux.jpg
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react-with-addons.min.js"></script>
@@ -28,7 +28,7 @@ photos:
 
 I've told you in my [previous post about React](/react-what-the-flux/) that his is how I felt every time I had to code JS:
 <figure>
-    <img src="/images/hamster_reverse_wheel.gif" alt="Coding in vanilla JS">
+    <img src="/images/750px/hamster_reverse_wheel.gif" alt="Coding in vanilla JS">
     <figcaption>Kinda works, but something's not as it's supposed to be.</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ What's important to see here is that the DOM event handler (handleClick) does NO
 
 The point of Flux is to be more of a functional programming style and do something better than MVC. Flux eschews MVC in favor of a unidirectional data flow. When a user interacts with a React view, the view propagates an action through a central dispatcher, to the various stores that hold the application's data and business logic, which updates all of the views that are affected. This works especially well with React's declarative programming style, which allows the store to send updates without specifying how to transition views between states.
 <figure>
-    <img src="/images/flux-simple-f8-diagram-with-client-action-1300w.png" style="width: 670px;" alt="Data flow in Flux">
+    <img src="/images/750px/flux-simple-f8-diagram-with-client-action-1300w.png" style="width: 670px;" alt="Data flow in Flux">
     <figcaption>Data flow in Flux</figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ There's a [blog post](http://spoike.ghost.io/deconstructing-reactjss-flux/) abou
 
 # Let's start
 
-![](/images/yeoman-logo.png)
+![](/images/750px/yeoman-logo.png)
 
 Let's create a very simple application: an image grid which periodically fetches the latest public photos from Flickr and also add a button to be able to trigger the refresh. You can see it working at [https://reflux-sample.ochronus.com/](https://reflux-sample.ochronus.com/). You can find the sources on [Github](https://github.com/ochronus/reflux-example)
 

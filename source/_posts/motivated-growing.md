@@ -3,7 +3,7 @@ date: "2017-02-24T09:52:01+01:00"
 title: "Staying motivated while growing"
 url: staying-motivated-while-growing
 photos:
-    - /images/goldilock.jpeg
+    - /images/750px/goldilock.jpeg
 ---
 
 For those unfamiliar with classic fairy tales, in Goldilocks, a little girl visited the home of a family of three bears, and tried each of their meals, chairs and beds. She choose the options most comfortable for her, in terms of taste, size and softness.

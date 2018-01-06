@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2011-08-27T00:00:00Z
 excerpt: Let’s meet HTTP GET's little brother
-featured_image: /images/http-request.png
+featured_image: /images/750px/http-request.png
 image:
   feature: http-head.jpg
   topPosition: -200px;
@@ -12,7 +12,7 @@ share: true
 title: What Is a HTTP HEAD Request Good for? Some Uses
 url: http-head-request-good-uses
 photos:
-    - /images/http-head.jpg
+    - /images/750px/http-head.jpg
 ---
 
 ## Let’s meet HTTP GET ‘s little brother  

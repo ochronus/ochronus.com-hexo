@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2014-01-17T00:00:00Z
 excerpt: My neverending path
-featured_image: /images/phrenology.jpg
+featured_image: /images/750px/phrenology.jpg
 image:
   feature: knowledge-junkie.jpg
   topPosition: -300px;
@@ -17,7 +17,7 @@ share: true
 title: Confessions of a knowledge junkie
 url: confessions-of-a-knowledge-junkie
 photos:
-    - /images/knowledge-junkie.jpg
+    - /images/750px/knowledge-junkie.jpg
 ---
 
 #### knowledge junkie 

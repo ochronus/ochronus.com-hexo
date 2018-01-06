@@ -2,10 +2,10 @@
 categories:
 - posts
 comments: true
-cover_image: /images/docker.jpg
+cover_image: /images/750px/docker.jpg
 date: 2013-08-30T00:00:00Z
 excerpt: Let's create a docker container and run a basic Django app - step by step.
-featured_image: /images/docker.png
+featured_image: /images/750px/docker.png
 image:
   feature: docker.jpg
   topPosition: -300px;
@@ -21,7 +21,7 @@ share: true
 title: A Docker primer – from zero to a running Django app
 url: docker-primer-django
 photos:
-    - /images/docker.jpg
+    - /images/750px/docker.jpg
 ---
 
 Let's create a docker container and run a basic Django app - step by step.  

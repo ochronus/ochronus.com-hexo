@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2013-07-30T00:00:00Z
 excerpt: Control your prezi steps using gestures with your webcam
-featured_image: /images/prezi.png
+featured_image: /images/750px/prezi.png
 image:
   feature: prezi-webcam.jpg
   topPosition: -300px;
@@ -12,7 +12,7 @@ share: true
 title: Prezi webcam controller test
 url: prezi-webcam
 photos:
-    - /images/prezi-webcam.jpg
+    - /images/750px/prezi-webcam.jpg
 ---
 {% raw %}
 <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>

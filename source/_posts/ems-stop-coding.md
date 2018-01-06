@@ -3,7 +3,7 @@ date: "2017-02-24T09:39:54+01:00"
 title: "Engineering managers, stop coding!"
 url: engineering-managers-stop-coding
 photos:
-    - /images/comfort-zone.jpeg
+    - /images/750px/comfort-zone.jpeg
 ---
 
 

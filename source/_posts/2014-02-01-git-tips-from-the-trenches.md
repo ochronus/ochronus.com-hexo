@@ -2,11 +2,11 @@
 categories:
 - posts
 comments: true
-cover_image: /images/phone.jpg
+cover_image: /images/750px/phone.jpg
 date: 2014-02-01T00:00:00Z
 excerpt: Get better at git with some pro tips. Learn these tricks and rock your daily
   vcs routine!
-featured_image: /images/git-beginner-share.png
+featured_image: /images/750px/git-beginner-share.png
 image:
   feature: git-tips.jpg
   topPosition: -300px;
@@ -21,7 +21,7 @@ share: true
 title: Git tips from the trenches
 url: git-tips-from-the-trenches
 photos:
-    - /images/git-tips.jpg
+    - /images/750px/git-tips.jpg
 ---
 
 ##After a few years with git everyone has their own bag o' tricks - a collection of bash aliases, one liners and habits that make his daily work easier. 

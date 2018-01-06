@@ -19,7 +19,7 @@ tags:
 title: FizzBuzz in CSS
 url: fizzbuzz-in-css
 photos:
-    - /images/fizzbuzz.png
+    - /images/750px/fizzbuzz.png
 ---
 
 ## Lo and behold, a pure CSS FizzBuzz implementation!

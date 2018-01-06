@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2013-09-13T00:00:00Z
 excerpt: Google, Apple and thus NSA can easily know most WiFi passwords in the world.
-featured_image: /images/reuters-us-usa-security-records.jpg
+featured_image: /images/750px/reuters-us-usa-security-records.jpg
 image:
   feature: google-apple-wifi-passwords.jpg
   topPosition: -300px;
@@ -23,7 +23,7 @@ share: true
 title: Google and Apple know most WiFi passwords in the world
 url: google-apple-know-wifi-passwords-world
 photos:
-    - /images/google-apple-wifi-passwords.jpg
+    - /images/750px/google-apple-wifi-passwords.jpg
 ---
 
 And if they know, NSA can know. If you use your smartphone to log on to WiFi networks there's a high probability that you're unconsciously sending its password to Google or Apple. The keyword is 'backup'.

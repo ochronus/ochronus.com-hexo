@@ -5,7 +5,7 @@ comments: true
 date: 2013-08-26T00:00:00Z
 excerpt: User tracking using HTTP redirects (301 moved permanently) - no cookies or
   localstorage needed. Similar to ETag based tracking, a bit less effective though.
-featured_image: /images/user_tracking_with_redirect.jpg
+featured_image: /images/750px/user_tracking_with_redirect.jpg
 image:
   feature: user-tracking.jpg
   topPosition: -300px;
@@ -19,7 +19,7 @@ share: true
 title: User tracking with HTTP Redirect
 url: user-tracking-http-redirect
 photos:
-    - /images/user-tracking.jpg
+    - /images/750px/user-tracking.jpg
 ---
 
 Ok we're though with [ETag based user tracking](/tracking-without-cookies/), now let's see a slightly less effective but still usable 'invisible' user tracking method, the redirect based one.

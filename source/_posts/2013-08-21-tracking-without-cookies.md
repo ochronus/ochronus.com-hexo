@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2013-08-21T00:00:00Z
 excerpt: Tracking users without cookies - yes, it's possible and it's nasty.
-featured_image: /images/cookies.jpg
+featured_image: /images/750px/cookies.jpg
 image:
   feature: cookies.jpg
   topPosition: -300px;
@@ -18,7 +18,7 @@ share: true
 title: Tracking without cookies
 url: tracking-without-cookies
 photos:
-    - /images/cookies.jpg
+    - /images/750px/cookies.jpg
 ---
 
 # Demo
@@ -59,7 +59,7 @@ With ETags.
 An ETag is an opaque identifier assigned by a web server to a specific version of a resource found at a URL. If the resource content at that URL ever changes, a new and different ETag is assigned. Used in this manner ETags are similar to fingerprints, and they can be quickly compared to determine if two versions of a resource are the same or not. Comparing ETags only makes sense with respect to one URL—ETags for resources obtained from different URLs may or may not be equal, so no meaning can be inferred from their comparison.
 </blockquote>
 
-![ETag](/images/etag.png "ETag")
+![ETag](/images/750px/etag.png "ETag")
 
 So basically what happens is: The server sends an _ETag_ HTTP header with the response, containing an arbitrary string (in the normal case a checksum of the resource). Compliant browsers (IE5.5+, Safari, Chrome, Opera, Firefox, etc.) send the _If-None-Match_ HTTP header with subsequent requests containing the same string the ETag header contained. The server could make an intelligent decision to serve the content from cache or say _304 Not Modified_ if the checksum didn't change.
 

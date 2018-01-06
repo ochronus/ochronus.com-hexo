@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2013-08-13T00:00:00Z
 excerpt: Using git bisect to help debugging - find breaking commits
-featured_image: /images/git-logo.png
+featured_image: /images/750px/git-logo.png
 image:
   feature: git-bisect.jpg
   topPosition: -300px;
@@ -15,7 +15,7 @@ share: true
 title: Git bisect - debug with git
 url: git-bisect-debug-with-git
 photos:
-    - /images/git-bisect.jpg
+    - /images/750px/git-bisect.jpg
 ---
 
 # The setting

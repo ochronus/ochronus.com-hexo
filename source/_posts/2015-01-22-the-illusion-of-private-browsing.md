@@ -15,11 +15,11 @@ tags:
 title: The illusion of private browsing
 url: the-illusion-of-private-browsing
 photos:
-    - /images/surveillance.jpg
+    - /images/750px/surveillance.jpg
 ---
 
 # Have you tried browsing in incognito mode? Did you feel safe?
-![](/images/incognito-mode.png){: .center-image }
+![](/images/750px/incognito-mode.png){: .center-image }
 Did you read the bold part? Well it's fair enough but there are some details missing from that. 
 
 ## Any searches performed while signed into a Google account will be saved as part of the account's web history - even in incognito mode.
@@ -51,4 +51,4 @@ If you really care, use a [private VPN](http://lifehacker.com/5935863/five-best-
 
 In the end it's all about being conscious online. You make your choices about what level of privacy you want, the important thing is to have a clear picture.
 
-![](/images/you-cant-see-me-i-am-a-flower.jpg){: .center-image }
+![](/images/750px/you-cant-see-me-i-am-a-flower.jpg){: .center-image }

@@ -2,10 +2,10 @@
 categories:
 - posts
 comments: true
-cover_image: /images/cloud.jpg
+cover_image: /images/750px/cloud.jpg
 date: 2014-01-07T00:00:00Z
 excerpt: DigitalOcean or Amazon EC2? It's not so hard to choose
-featured_image: /images/cloud-hosting.jpg
+featured_image: /images/750px/cloud-hosting.jpg
 image:
   feature: digital-ocean.jpg
   topPosition: -300px;
@@ -24,7 +24,7 @@ share: true
 title: DigitalOcean - a review and comparison
 url: digitalocean-review-comparison
 photos:
-    - /images/digital-ocean.jpg
+    - /images/750px/digital-ocean.jpg
 ---
 
 ## The setting
@@ -57,7 +57,7 @@ You simply can't beat the pricing of DigitalOcean servers.
 
 Here's a chart taken from [their pricing comparison page](https://www.digitalocean.com/price-comparison-chart)
 
-<img alt="DigitalOcean prices" title="DigitalOcean prices" src="/images/digitalocean-pricing-comparison.jpg" width="800" height="417" />
+<img alt="DigitalOcean prices" title="DigitalOcean prices" src="/images/750px/digitalocean-pricing-comparison.jpg" width="800" height="417" />
 
 What's really great about these low prices is that you can get on and build a small but scalable cloud architecture for yourself and try your startup ideas in a way it won't vacuum your wallet empty and you won't be scratching your head when your startup starts booming and you need to scale. 
 
@@ -79,19 +79,19 @@ I left out the t1.micro EC2 instance on purporse as it's a very low performant, 
 
 #### Reading 128K with random access
 
-<img alt="Cloud Disk Benchmark" title="Cloud Disk Benchmark" src="/images/cloud_disk_random_reads.png" width="884" height="650" />
+<img alt="Cloud Disk Benchmark" title="Cloud Disk Benchmark" src="/images/750px/cloud_disk_random_reads.png" width="884" height="650" />
 
 Ouch. A serious burn for AWS. 
 
 #### Now for something more real-world: four threads, two readers, two writers with async I/O (aio)
 
-<img alt="Cloud Disk Benchmark" title="Cloud Disk Benchmark" src="/images/cloud_disk_real_world.png" width="884" height="650" />
+<img alt="Cloud Disk Benchmark" title="Cloud Disk Benchmark" src="/images/750px/cloud_disk_real_world.png" width="884" height="650" />
 
 Yikes. Would anyone want to host anything disk-intensive on EC2 anymore?
 
 ### CPU speed
 
-<img alt="Cloud CPU Benchmark" title="Cloud CPU Benchmark" src="/images/cloud_cpu_speed_comparison.png" width="884" height="650" />
+<img alt="Cloud CPU Benchmark" title="Cloud CPU Benchmark" src="/images/750px/cloud_cpu_speed_comparison.png" width="884" height="650" />
 
 You can clearly see that we're getting very powerful computing power for much less money at DigitalOcean.
 
