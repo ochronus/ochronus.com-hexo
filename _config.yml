@@ -36,8 +36,8 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
-relative_link: false
+
+
 future: true
 highlight:
   enable: true
@@ -65,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hacker
+theme: tranquilpeak
 #theme: Daily
 
 # Deployment
@@ -75,3 +75,20 @@ deploy:
 
 sitemap:
   path: sitemap.xml
+
+
+# tranquilpeak START
+
+post_asset_folder: true
+relative_link: false
+feed:
+    type: atom
+    path: atom.xml
+    limit: 200
+keywords:
+  - ochronus
+  - engineering
+  - leadership
+  - management
+
+# tranquilpeak END
