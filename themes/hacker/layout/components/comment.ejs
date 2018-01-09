@@ -28,20 +28,53 @@
 
 	<script type="text/javascript">
 	var disqus_shortname = '<%= theme.disqus_shortname %>';
-	(function(){
-	  var dsq = document.createElement('script');
-	  dsq.type = 'text/javascript';
-	  dsq.async = true;
-	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	}());
-	(function(){
-	  var dsq = document.createElement('script');
-	  dsq.type = 'text/javascript';
-	  dsq.async = true;
-	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	}());
+
+	function isScrolledIntoView(elem) {
+		var rect = elem.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 200 && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
+	}	
+
+	var commentsElement = document.getElementById('comments');
+	var scrollEventTimetimer = 0;
+	var disqusLoaded = false;
+
+	function loadDisqusIfNeeded() {
+		if (isScrolledIntoView(commentsElement) && !disqusLoaded) {
+			disqusLoaded = true;
+			(function(){
+				var dsq = document.createElement('script');
+				dsq.type = 'text/javascript';
+				dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			}());
+			(function(){
+				var dsq = document.createElement('script');
+				dsq.type = 'text/javascript';
+				dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			}());
+		}
+	}
+	window.addEventListener("scroll", function () {
+		if (scrollEventTimetimer) {
+    	clearTimeout(scrollEventTimetimer);
+  	}
+
+  	// Use a buffer so we don't call myCallback too often.
+  	scrollEventTimetimer = setTimeout(loadDisqusIfNeeded, 100);
+
+	}, false);
+
+
+	
 	</script>
 
 <% } %>
