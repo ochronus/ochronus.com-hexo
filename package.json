@@ -6,6 +6,8 @@
     "version": "3.4.4"
   },
   "dependencies": {
+    "bluebird": "^3.5.1",
+    "hasha": "^3.0.0",
     "hexo": "^3.4.4",
     "hexo-admin": "^2.3.0",
     "hexo-auto-canonical": "^0.1.1",
@@ -21,6 +23,9 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.1",
     "hexo-tag-bootstrap": "^0.1.2",
-    "hexo-util": "^0.6.3"
+    "hexo-util": "^0.6.3",
+    "rev-path": "^2.0.0",
+    "stream-buffers": "^3.0.1",
+    "stream-to-array": "^2.3.0"
   }
 }
