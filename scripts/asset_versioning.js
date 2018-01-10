@@ -4,6 +4,7 @@ const Promise = require('bluebird');
 const streamToArray = require('stream-to-array');
 const streamToArrayAsync = Promise.promisify(streamToArray);
 const revPath = require('rev-path');
+const Soup = require('soup');
 
 
 hexo.log.info('Asset versioning script active');
@@ -41,10 +42,30 @@ hexo.extend.filter.register('after_generate', function () {
             });
     })
     .then(function() {
+        
         for (var originalPath in versionedAssets) {
             const elem = versionedAssets[originalPath];
             hexo.route.set(elem.path, elem.content);
-            console.log(elem.path);
+            //console.log(originalPath, ' ---> ', elem.path);
+        }
+
+        for (var htmlPath in htmlContents) {
+            let htmlObj = new Soup(htmlContents[htmlPath]);
+            let fileChanged = false;
+            htmlObj.setAttribute('link[rel=stylesheet]', 'href', function (originalCSSPath) {
+                let relPath = originalCSSPath.substring(1);
+                if (versionedAssets[relPath]) {
+                    fileChanged = true;
+                    return '/' + versionedAssets[relPath].path;
+                } 
+                else {
+                    return originalCSSPath;
+                }
+              });
+            if (fileChanged) {
+                hexo.route.set(htmlPath, htmlObj.toString());
+            }
+            //console.log(htmlPath);
         }
     });
 });

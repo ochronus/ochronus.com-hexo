@@ -25,6 +25,7 @@
     "hexo-tag-bootstrap": "^0.1.2",
     "hexo-util": "^0.6.3",
     "rev-path": "^2.0.0",
+    "soup": "^0.1.5",
     "stream-buffers": "^3.0.1",
     "stream-to-array": "^2.3.0"
   }
