@@ -15,7 +15,7 @@ timezone:
 url: https://ochronus.com
 root: /
 permalink: :url/
-permalink_defaults:
+permalink_de§aults:
 
 # Directory
 source_dir: source
@@ -75,3 +75,24 @@ deploy:
 
 sitemap:
   path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 100
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+
+asset_pipeline:
+  revisioning:
+    enable: false
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
