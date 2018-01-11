@@ -96,3 +96,8 @@ asset_pipeline:
     enable: true
   html_minifier:
     enable: true
+
+criticalcss:
+  enable: true
+  perPageCss: true
+  
