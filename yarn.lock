@@ -3288,7 +3288,7 @@ hexo-admin@^2.3.0:
     serve-static "^1.4.0"
     write-good "^0.10.0"
 
-hexo-asset-pipeline@^1.4.0:
+hexo-asset-pipeline@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/hexo-asset-pipeline/-/hexo-asset-pipeline-1.5.0.tgz#beaa143e94f7ab923ae89e190d3e97a3ebf006ee"
   dependencies:
