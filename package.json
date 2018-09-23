@@ -3,10 +3,10 @@
   "version": "0.0.5",
   "private": true,
   "hexo": {
-    "version": "3.4.4"
+    "version": "3.7.1"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
+    "bluebird": "^3.5.2",
     "hasha": "^3.0.0",
     "hexo": "^3.7.1",
     "hexo-admin": "^2.3.0",
@@ -25,7 +25,7 @@
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
-    "hexo-server": "^0.3.2",
+    "hexo-server": "^0.3.3",
     "hexo-tag-bootstrap": "^0.1.2",
     "hexo-util": "^0.6.3",
     "rev-path": "^2.0.0",
