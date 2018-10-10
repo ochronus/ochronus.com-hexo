@@ -51,8 +51,7 @@ hexo.extend.filter.register('after_generate', function () {
                 [[headers]]
                     for = "/*"
                     [headers.values]
-                        Link = 
-                        </${elem.path}>; rel=preload; as=style
+                        Link = </${elem.path}>; rel=preload; as=style
                 `;
                 hexo.route.set("netlify.toml", configStr);
             }
