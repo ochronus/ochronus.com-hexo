@@ -46,7 +46,17 @@ hexo.extend.filter.register('after_generate', function () {
         for (var originalPath in versionedAssets) {
             const elem = versionedAssets[originalPath];
             hexo.route.set(elem.path, elem.content);
-            //console.log(originalPath, ' ---> ', elem.path);
+            if (originalPath == 'css/style.css') {
+                let configStr = `
+                [[headers]]
+                    for = "/*"
+                    [headers.values]
+                        Link = 
+                        </${elem.path}>; rel=preload; as=style
+                `;
+                hexo.route.set("netlify.toml", configStr);
+            }
+            // console.log(originalPath, ' ---> ', elem.path);
         }
 
         for (var htmlPath in htmlContents) {
@@ -65,7 +75,7 @@ hexo.extend.filter.register('after_generate', function () {
             if (fileChanged) {
                 hexo.route.set(htmlPath, htmlObj.toString());
             }
-            //console.log(htmlPath);
+            // console.log(htmlPath);
         }
     });
 });
